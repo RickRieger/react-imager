@@ -1,0 +1,64 @@
+.body{
+  height:80vh;
+  width:60vw;
+  padding:20px;
+  background-color: grey;
+  justify-content: center;
+}
+
+html{
+  height:100vh;
+  padding:10%;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+ #large-image-container > img{
+  object-fit: cover;
+   width:100%;
+   height:350px;
+ }
+ #large-image-container{
+   display: flex;
+   justify-content: center;
+ }
+ .controls{
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ button{
+   width:100px;
+   height:25px;
+ }
+ #btn-right{
+   margin-left:10px;
+ }
+ h1{
+   text-align: center;
+ }
+
+.cars{
+display:flex;
+justify-content: space-between;
+margin-bottom: 0px;
+flex-wrap: wrap;
+width:100%;
+height:40%;
+background-color: grey;
+}
+.children{
+  flex:1 0 25%;
+  margin:auto;
+  display: flex;
+}
+img{
+  object-fit: cover;
+  width:100px;
+  height:100px;
+  margin: auto;
+}
